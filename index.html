@@ -51,6 +51,22 @@
       >
       </a-entity>
     </a-nft>
+	<!--我们使用了 cors 代理来避免跨域问题-->
+	<a-nft
+	  type="nft"
+	  url="/static/descriptors/girl/girl"
+	  smooth="true"
+	  smoothCount="10"
+	  smoothTolerance=".01"
+	  smoothThreshold="5"
+	>
+	  <a-entity
+	    gltf-model="/static/model/girl/scene.gltf"
+	    scale="5 5 5"
+	    position="50 150 0"
+	  >
+	  </a-entity>
+	</a-nft>
     <a-entity camera></a-entity>
   </a-scene>
 </body>
